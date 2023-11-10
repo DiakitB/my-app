@@ -36,7 +36,7 @@ const accountSlice = createSlice({
     },
   },
 });
-console.log(accountSlice);
+
 export const { withdraw, requestLoan, payLoan } = accountSlice.actions;
 
 /////
@@ -56,4 +56,5 @@ export function deposit(amount, currency) {
     dispatch({ type: "account/deposit", payload: converted });
   };
 }
+
 export default accountSlice.reducer;

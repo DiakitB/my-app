@@ -6,7 +6,6 @@ function Customer() {
   const [nationalId, setNationalId] = useState("");
   const customer = useSelector((store) => store.customer.fullName);
   const dispatch = useDispatch();
-  console.log(customer);
 
   function handleClick(e) {
     e.preventDefault();

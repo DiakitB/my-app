@@ -22,7 +22,18 @@
 /// Exp: function createUser(name){
 //return{type: "vanessa", payload: 56}
 //}
+//// How to create our store
+///Step 1) npm i redux
+///Step 2) import {createStore} from"./redux
+/// Step 3) pass in our reducer into the createStore
+/// we can store the result of the later into a variable call store
 //
+// HOW TO CONNECT OUR APPLICATION WITH REDUX
+
+/////
+////
+
+/// STEP 1) We install react-redux
 
 /// Step 5) we call dispatch on our store and pass in our action function with the values that we have specified in the parametter
 

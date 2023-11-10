@@ -8,7 +8,7 @@ import "./Store";
 import store from "./Store";
 import { Provider } from "react-redux";
 // store.dispatch(deposit(5000));
-console.log(store.getState());
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
